@@ -134,8 +134,7 @@ a {
     font-size: var(--font-size-700);
 }
 
-/* --------------------------------------------- */
-/* Footer */
+
 
 
 /* ---------------------------------------------- */
@@ -230,12 +229,29 @@ a {
     margin-bottom: 5px;
 }
 
+/* --------------------------------------------- */
+/* Footer */
+.footer {
+    background-color: var(--bg-color-primary);
+    padding: 20px;   
+}
 
+.footer-section {
+    flex-grow: 1;
+}
 
+.footer-section li:not(:last-child),
+.footer-section h3 {
+    margin-bottom: 15px;
+}
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+.footer-section h3 {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-500);
+}
 
-/****** Media queries ***********/
+/* ----------------------------------------------- */
+/* Media Queries */
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
