@@ -122,6 +122,22 @@ a {
 }
 
 
+/* -------------------------------------------- */
+/* Page title and subtitle */
+.page-title {
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.page-title h1 {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-700);
+}
+
+/* --------------------------------------------- */
+/* Footer */
+
+
 /* ---------------------------------------------- */
 .section-title {
     margin: 0;
