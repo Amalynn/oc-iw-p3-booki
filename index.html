@@ -31,8 +31,8 @@
             <img src="./images/logo/Booki.png" alt="Logo de l'entreprise Booki">
             <nav class=" header-navbar">
                 <ul class="reset-list">
-                    <li><a href="./index.html#hebergements">Hébergements</a></li>
-                    <li><a href="./index.html#activities">Activités</a></li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activities">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -45,22 +45,50 @@
                 <p>En plein centre ville ou en pleine nature</p>
             </hgroup>
 
-            <!-- Filters-->
-            <section class="filters d-flex">
-                <h2 class="filters-title">Filtres</h2>
-                <div class="filters-group">
-                    <a href="#"><i class="fa-solid fa-money-bill-wave"></i>&Eacute;conomique</a>
-                    <a href="#"><i class="fa-solid fa-person"></i> Familial</a>
-                    <a href="#"><i class="fa-solid fa-heart"></i>Romantique</a>
-                    <a href="#"><i class="fa-solid fa-fire"></i>Nos pépites</a>
-                </div>
-            </section>
+            <!--Informations group -->
+            <div class="info-group">
 
+                <!-- Search Bar -->
+                <section class="search-bar d-flex">
+                    <div class="search-bar-icon d-flex">
+                        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                    </div>
+                                   
+                    <form action="" method="get" class="search-bar-form d-flex">                                
+                        <input class="input-city" type="search" name="city-name" id="city-name" placeholder="Marseille, France" aria-label="">
+                        <button type="submit" class="btn-text" aria-label="submit search">Rechercher</button>
+                        <button type="submit" class="btn-icon" aria-label="submit search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </section>                
+
+                <!-- Filters-->
+                <section class="filters d-flex">
+                    <h2 class="filters-title">Filtres</h2>
+                    <div class="filters-group d-flex">
+                        <a href="#"><i class="fa-solid fa-money-bill-wave"></i>&Eacute;conomique</a>
+                        <a href="#"><i class="fa-solid fa-person"></i> Familial</a>
+                        <a href="#"><i class="fa-solid fa-heart"></i>Romantique</a>
+                        <a href="#"><i class="fa-solid fa-fire"></i>Nos&nbsp;pépites</a>
+                    </div>
+                </section>
+
+                <!--Informations -->
+                <section class="info-bar d-flex">
+                    <div class="circle-icon">
+                        <i class="fa-solid fa-info"></i>  
+                    </div>                                      
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </section>
+
+            </div>
+                
             <!--Hebergements & Populaires-->
             <div class="hebergements-and-populaires">
 
                 <!-- Hebergements -->
-                <section class="hebergements">
+                <section id="hebergements" class="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards d-grid">
                         <a href="#">
