@@ -24,8 +24,8 @@ This is my solution for the project n°2 - OpenClassrooms - Web Developer traini
 
 ### Screenshot
 
-![Desktop solution screenshot - Homepage](./images/screenshot-desktop-homepage.png)
-![Mobile solution screenshot - Apartment page](./images/screenshot-mobile-homepage.png)
+![Desktop solution screenshot - Homepage](./images/screenshots/screenshot-desktop-homepage.png)
+![Mobile solution screenshot - Apartment page](./images/screenshots/screenshot-mobile-homepage.png)
 
 ### Links
 
